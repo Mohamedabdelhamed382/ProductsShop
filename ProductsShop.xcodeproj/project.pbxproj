@@ -9,14 +9,25 @@
 /* Begin PBXBuildFile section */
 		7DA6EC5A289885DB0091BF09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6EC59289885DB0091BF09 /* AppDelegate.swift */; };
 		7DA6EC5C289885DB0091BF09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6EC5B289885DB0091BF09 /* SceneDelegate.swift */; };
-		7DA6EC5E289885DB0091BF09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6EC5D289885DB0091BF09 /* ViewController.swift */; };
-		7DA6EC61289885DB0091BF09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA6EC5F289885DB0091BF09 /* Main.storyboard */; };
 		7DA6EC64289885DB0091BF09 /* ProductsShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6EC62289885DB0091BF09 /* ProductsShop.xcdatamodeld */; };
 		7DA6EC66289885DD0091BF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DA6EC65289885DD0091BF09 /* Assets.xcassets */; };
 		7DA6EC69289885DD0091BF09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA6EC67289885DD0091BF09 /* LaunchScreen.storyboard */; };
 		7DA6EC74289885DD0091BF09 /* ProductsShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6EC73289885DD0091BF09 /* ProductsShopTests.swift */; };
 		7DA6EC7E289885DD0091BF09 /* ProductsShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6EC7D289885DD0091BF09 /* ProductsShopUITests.swift */; };
 		7DA6EC80289885DD0091BF09 /* ProductsShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6EC7F289885DD0091BF09 /* ProductsShopUITestsLaunchTests.swift */; };
+		7DA6EC92289888E30091BF09 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6EC91289888E30091BF09 /* CustomTextField.swift */; };
+		7DA6ECAA28988B200091BF09 /* String + Extensions .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6ECA428988B200091BF09 /* String + Extensions .swift */; };
+		7DA6ECAB28988B200091BF09 /* DesignableTextField + Extenison .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6ECA528988B200091BF09 /* DesignableTextField + Extenison .swift */; };
+		7DA6ECAC28988B200091BF09 /* CornersRadius + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6ECA628988B200091BF09 /* CornersRadius + Extensions.swift */; };
+		7DA6ECAD28988B200091BF09 /* Keybord + Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6ECA728988B200091BF09 /* Keybord + Extention.swift */; };
+		7DA6ECAE28988B200091BF09 /* UserDefaults + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6ECA828988B200091BF09 /* UserDefaults + Extensions.swift */; };
+		7DA6ECAF28988B200091BF09 /* UIView + IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6ECA928988B200091BF09 /* UIView + IBInspectable.swift */; };
+		7DA6ECB528988B9E0091BF09 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6ECB328988B9E0091BF09 /* SignInViewController.swift */; };
+		7DA6ECB628988B9E0091BF09 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DA6ECB428988B9E0091BF09 /* SignInViewController.xib */; };
+		7DA6ECB928988CA50091BF09 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6ECB728988CA50091BF09 /* OnboardingViewController.swift */; };
+		7DA6ECBA28988CA50091BF09 /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DA6ECB828988CA50091BF09 /* OnboardingViewController.xib */; };
+		7DA6ECBD28988D130091BF09 /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6ECBB28988D130091BF09 /* AddProductViewController.swift */; };
+		7DA6ECBE28988D130091BF09 /* AddProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DA6ECBC28988D130091BF09 /* AddProductViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +51,6 @@
 		7DA6EC56289885DB0091BF09 /* ProductsShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductsShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA6EC59289885DB0091BF09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DA6EC5B289885DB0091BF09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7DA6EC5D289885DB0091BF09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7DA6EC60289885DB0091BF09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DA6EC63289885DB0091BF09 /* ProductsShop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductsShop.xcdatamodel; sourceTree = "<group>"; };
 		7DA6EC65289885DD0091BF09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DA6EC68289885DD0091BF09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,19 @@
 		7DA6EC79289885DD0091BF09 /* ProductsShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductsShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA6EC7D289885DD0091BF09 /* ProductsShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsShopUITests.swift; sourceTree = "<group>"; };
 		7DA6EC7F289885DD0091BF09 /* ProductsShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7DA6EC91289888E30091BF09 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		7DA6ECA428988B200091BF09 /* String + Extensions .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Extensions .swift"; sourceTree = "<group>"; };
+		7DA6ECA528988B200091BF09 /* DesignableTextField + Extenison .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DesignableTextField + Extenison .swift"; sourceTree = "<group>"; };
+		7DA6ECA628988B200091BF09 /* CornersRadius + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CornersRadius + Extensions.swift"; sourceTree = "<group>"; };
+		7DA6ECA728988B200091BF09 /* Keybord + Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Keybord + Extention.swift"; sourceTree = "<group>"; };
+		7DA6ECA828988B200091BF09 /* UserDefaults + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults + Extensions.swift"; sourceTree = "<group>"; };
+		7DA6ECA928988B200091BF09 /* UIView + IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + IBInspectable.swift"; sourceTree = "<group>"; };
+		7DA6ECB328988B9E0091BF09 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		7DA6ECB428988B9E0091BF09 /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		7DA6ECB728988CA50091BF09 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		7DA6ECB828988CA50091BF09 /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
+		7DA6ECBB28988D130091BF09 /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
+		7DA6ECBC28988D130091BF09 /* AddProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddProductViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +123,11 @@
 		7DA6EC58289885DB0091BF09 /* ProductsShop */ = {
 			isa = PBXGroup;
 			children = (
-				7DA6EC59289885DB0091BF09 /* AppDelegate.swift */,
-				7DA6EC5B289885DB0091BF09 /* SceneDelegate.swift */,
-				7DA6EC5D289885DB0091BF09 /* ViewController.swift */,
-				7DA6EC5F289885DB0091BF09 /* Main.storyboard */,
-				7DA6EC65289885DD0091BF09 /* Assets.xcassets */,
-				7DA6EC67289885DD0091BF09 /* LaunchScreen.storyboard */,
-				7DA6EC6A289885DD0091BF09 /* Info.plist */,
+				7DA6EC8C289885F40091BF09 /* Configurations */,
+				7DA6EC8E289888B50091BF09 /* Core */,
+				7DA6EC97289889430091BF09 /* Delegate */,
+				7DA6EC99289889700091BF09 /* Resources */,
+				7DA6EC982898895D0091BF09 /* Modual */,
 				7DA6EC62289885DB0091BF09 /* ProductsShop.xcdatamodeld */,
 			);
 			path = ProductsShop;
@@ -128,6 +148,139 @@
 				7DA6EC7F289885DD0091BF09 /* ProductsShopUITestsLaunchTests.swift */,
 			);
 			path = ProductsShopUITests;
+			sourceTree = "<group>";
+		};
+		7DA6EC8C289885F40091BF09 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6EC8D289888A30091BF09 /* Plist */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		7DA6EC8D289888A30091BF09 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6EC6A289885DD0091BF09 /* Info.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		7DA6EC8E289888B50091BF09 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6ECA328988B0C0091BF09 /* Extention */,
+				7DA6EC8F289888C70091BF09 /* Custom View */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7DA6EC8F289888C70091BF09 /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6EC90289888D20091BF09 /* CustomTextField */,
+			);
+			path = "Custom View";
+			sourceTree = "<group>";
+		};
+		7DA6EC90289888D20091BF09 /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6EC91289888E30091BF09 /* CustomTextField.swift */,
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		7DA6EC97289889430091BF09 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6EC59289885DB0091BF09 /* AppDelegate.swift */,
+				7DA6EC5B289885DB0091BF09 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		7DA6EC982898895D0091BF09 /* Modual */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6ECB228988B640091BF09 /* SignIn Screen */,
+				7DA6ECB128988B4C0091BF09 /* OnboardingScreen */,
+				7DA6ECB028988B390091BF09 /* AddProductScreen */,
+			);
+			path = Modual;
+			sourceTree = "<group>";
+		};
+		7DA6EC99289889700091BF09 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6EC9B289889930091BF09 /* Storyboard */,
+				7DA6EC9A289889840091BF09 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7DA6EC9A289889840091BF09 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6EC65289885DD0091BF09 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7DA6EC9B289889930091BF09 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6EC9C289889A80091BF09 /* Base */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		7DA6EC9C289889A80091BF09 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6EC67289885DD0091BF09 /* LaunchScreen.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7DA6ECA328988B0C0091BF09 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6ECA628988B200091BF09 /* CornersRadius + Extensions.swift */,
+				7DA6ECA528988B200091BF09 /* DesignableTextField + Extenison .swift */,
+				7DA6ECA728988B200091BF09 /* Keybord + Extention.swift */,
+				7DA6ECA428988B200091BF09 /* String + Extensions .swift */,
+				7DA6ECA928988B200091BF09 /* UIView + IBInspectable.swift */,
+				7DA6ECA828988B200091BF09 /* UserDefaults + Extensions.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		7DA6ECB028988B390091BF09 /* AddProductScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6ECBB28988D130091BF09 /* AddProductViewController.swift */,
+				7DA6ECBC28988D130091BF09 /* AddProductViewController.xib */,
+			);
+			path = AddProductScreen;
+			sourceTree = "<group>";
+		};
+		7DA6ECB128988B4C0091BF09 /* OnboardingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6ECB728988CA50091BF09 /* OnboardingViewController.swift */,
+				7DA6ECB828988CA50091BF09 /* OnboardingViewController.xib */,
+			);
+			path = OnboardingScreen;
+			sourceTree = "<group>";
+		};
+		7DA6ECB228988B640091BF09 /* SignIn Screen */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6ECB328988B9E0091BF09 /* SignInViewController.swift */,
+				7DA6ECB428988B9E0091BF09 /* SignInViewController.xib */,
+			);
+			path = "SignIn Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +388,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DA6EC69289885DD0091BF09 /* LaunchScreen.storyboard in Resources */,
+				7DA6ECB628988B9E0091BF09 /* SignInViewController.xib in Resources */,
 				7DA6EC66289885DD0091BF09 /* Assets.xcassets in Resources */,
-				7DA6EC61289885DB0091BF09 /* Main.storyboard in Resources */,
+				7DA6ECBE28988D130091BF09 /* AddProductViewController.xib in Resources */,
+				7DA6ECBA28988CA50091BF09 /* OnboardingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +416,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DA6EC5E289885DB0091BF09 /* ViewController.swift in Sources */,
+				7DA6ECB528988B9E0091BF09 /* SignInViewController.swift in Sources */,
+				7DA6ECAC28988B200091BF09 /* CornersRadius + Extensions.swift in Sources */,
+				7DA6ECAB28988B200091BF09 /* DesignableTextField + Extenison .swift in Sources */,
+				7DA6ECAF28988B200091BF09 /* UIView + IBInspectable.swift in Sources */,
 				7DA6EC5A289885DB0091BF09 /* AppDelegate.swift in Sources */,
+				7DA6ECAE28988B200091BF09 /* UserDefaults + Extensions.swift in Sources */,
 				7DA6EC5C289885DB0091BF09 /* SceneDelegate.swift in Sources */,
+				7DA6ECB928988CA50091BF09 /* OnboardingViewController.swift in Sources */,
 				7DA6EC64289885DB0091BF09 /* ProductsShop.xcdatamodeld in Sources */,
+				7DA6ECBD28988D130091BF09 /* AddProductViewController.swift in Sources */,
+				7DA6ECAD28988B200091BF09 /* Keybord + Extention.swift in Sources */,
+				7DA6EC92289888E30091BF09 /* CustomTextField.swift in Sources */,
+				7DA6ECAA28988B200091BF09 /* String + Extensions .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +465,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7DA6EC5F289885DB0091BF09 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7DA6EC60289885DB0091BF09 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7DA6EC67289885DD0091BF09 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -443,10 +599,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2QP85WS6XB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ProductsShop/Info.plist;
+				INFOPLIST_FILE = ProductsShop/Configurations/Plist/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -471,10 +626,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2QP85WS6XB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ProductsShop/Info.plist;
+				INFOPLIST_FILE = ProductsShop/Configurations/Plist/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
