@@ -15,7 +15,7 @@
 		7DA6EC74289885DD0091BF09 /* ProductsShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6EC73289885DD0091BF09 /* ProductsShopTests.swift */; };
 		7DA6EC7E289885DD0091BF09 /* ProductsShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6EC7D289885DD0091BF09 /* ProductsShopUITests.swift */; };
 		7DA6EC80289885DD0091BF09 /* ProductsShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6EC7F289885DD0091BF09 /* ProductsShopUITestsLaunchTests.swift */; };
-		7DA6EC92289888E30091BF09 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6EC91289888E30091BF09 /* CustomTextField.swift */; };
+		7DA6EC92289888E30091BF09 /* TextField + IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6EC91289888E30091BF09 /* TextField + IBInspectable.swift */; };
 		7DA6ECAA28988B200091BF09 /* String + Extensions .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6ECA428988B200091BF09 /* String + Extensions .swift */; };
 		7DA6ECAB28988B200091BF09 /* DesignableTextField + Extenison .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6ECA528988B200091BF09 /* DesignableTextField + Extenison .swift */; };
 		7DA6ECAC28988B200091BF09 /* CornersRadius + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6ECA628988B200091BF09 /* CornersRadius + Extensions.swift */; };
@@ -60,7 +60,7 @@
 		7DA6EC79289885DD0091BF09 /* ProductsShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductsShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA6EC7D289885DD0091BF09 /* ProductsShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsShopUITests.swift; sourceTree = "<group>"; };
 		7DA6EC7F289885DD0091BF09 /* ProductsShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		7DA6EC91289888E30091BF09 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		7DA6EC91289888E30091BF09 /* TextField + IBInspectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextField + IBInspectable.swift"; sourceTree = "<group>"; };
 		7DA6ECA428988B200091BF09 /* String + Extensions .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Extensions .swift"; sourceTree = "<group>"; };
 		7DA6ECA528988B200091BF09 /* DesignableTextField + Extenison .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DesignableTextField + Extenison .swift"; sourceTree = "<group>"; };
 		7DA6ECA628988B200091BF09 /* CornersRadius + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CornersRadius + Extensions.swift"; sourceTree = "<group>"; };
@@ -186,7 +186,6 @@
 		7DA6EC90289888D20091BF09 /* CustomTextField */ = {
 			isa = PBXGroup;
 			children = (
-				7DA6EC91289888E30091BF09 /* CustomTextField.swift */,
 			);
 			path = CustomTextField;
 			sourceTree = "<group>";
@@ -252,6 +251,7 @@
 				7DA6ECA428988B200091BF09 /* String + Extensions .swift */,
 				7DA6ECA928988B200091BF09 /* UIView + IBInspectable.swift */,
 				7DA6ECA828988B200091BF09 /* UserDefaults + Extensions.swift */,
+				7DA6EC91289888E30091BF09 /* TextField + IBInspectable.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -427,7 +427,7 @@
 				7DA6EC64289885DB0091BF09 /* ProductsShop.xcdatamodeld in Sources */,
 				7DA6ECBD28988D130091BF09 /* AddProductViewController.swift in Sources */,
 				7DA6ECAD28988B200091BF09 /* Keybord + Extention.swift in Sources */,
-				7DA6EC92289888E30091BF09 /* CustomTextField.swift in Sources */,
+				7DA6EC92289888E30091BF09 /* TextField + IBInspectable.swift in Sources */,
 				7DA6ECAA28988B200091BF09 /* String + Extensions .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

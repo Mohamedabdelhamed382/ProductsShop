@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 @IBDesignable
-class  CustomTextField: UITextField {
+class  TextFieldCustomView: UITextField {
     
     @IBInspectable var leftImage: UIImage? {
         didSet {
