@@ -268,8 +268,8 @@
 		7DA6ECB028988B390091BF09 /* AddProductScreen */ = {
 			isa = PBXGroup;
 			children = (
-				7DA6ECBB28988D130091BF09 /* AddProductViewController.swift */,
-				7DA6ECBC28988D130091BF09 /* AddProductViewController.xib */,
+				7DDA4B9E289B0BF800408551 /* Sub View */,
+				7DDA4B9D289B0BDD00408551 /* Main View */,
 			);
 			path = AddProductScreen;
 			sourceTree = "<group>";
@@ -290,6 +290,22 @@
 				7DA6ECB428988B9E0091BF09 /* SignInViewController.xib */,
 			);
 			path = "SignIn Screen";
+			sourceTree = "<group>";
+		};
+		7DDA4B9D289B0BDD00408551 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				7DA6ECBB28988D130091BF09 /* AddProductViewController.swift */,
+				7DA6ECBC28988D130091BF09 /* AddProductViewController.xib */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
+		7DDA4B9E289B0BF800408551 /* Sub View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Sub View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
