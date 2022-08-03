@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DA0F1C9289A994D00291915 /* AddProductInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0F1C7289A994D00291915 /* AddProductInfo.swift */; };
+		7DA0F1CA289A994D00291915 /* AddProductInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DA0F1C8289A994D00291915 /* AddProductInfo.xib */; };
+		7DA0F1CC289AA66B00291915 /* UILabel + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0F1CB289AA66B00291915 /* UILabel + Extensions.swift */; };
 		7DA6EC5A289885DB0091BF09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6EC59289885DB0091BF09 /* AppDelegate.swift */; };
 		7DA6EC5C289885DB0091BF09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6EC5B289885DB0091BF09 /* SceneDelegate.swift */; };
 		7DA6EC64289885DB0091BF09 /* ProductsShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6EC62289885DB0091BF09 /* ProductsShop.xcdatamodeld */; };
@@ -48,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7DA0F1C7289A994D00291915 /* AddProductInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductInfo.swift; sourceTree = "<group>"; };
+		7DA0F1C8289A994D00291915 /* AddProductInfo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddProductInfo.xib; sourceTree = "<group>"; };
+		7DA0F1CB289AA66B00291915 /* UILabel + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extensions.swift"; sourceTree = "<group>"; };
 		7DA6EC56289885DB0091BF09 /* ProductsShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductsShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA6EC59289885DB0091BF09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DA6EC5B289885DB0091BF09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -178,16 +184,18 @@
 		7DA6EC8F289888C70091BF09 /* Custom View */ = {
 			isa = PBXGroup;
 			children = (
-				7DA6EC90289888D20091BF09 /* CustomTextField */,
+				7DA6EC90289888D20091BF09 /* AddProductCustomView */,
 			);
 			path = "Custom View";
 			sourceTree = "<group>";
 		};
-		7DA6EC90289888D20091BF09 /* CustomTextField */ = {
+		7DA6EC90289888D20091BF09 /* AddProductCustomView */ = {
 			isa = PBXGroup;
 			children = (
+				7DA0F1C7289A994D00291915 /* AddProductInfo.swift */,
+				7DA0F1C8289A994D00291915 /* AddProductInfo.xib */,
 			);
-			path = CustomTextField;
+			path = AddProductCustomView;
 			sourceTree = "<group>";
 		};
 		7DA6EC97289889430091BF09 /* Delegate */ = {
@@ -252,6 +260,7 @@
 				7DA6ECA928988B200091BF09 /* UIView + IBInspectable.swift */,
 				7DA6ECA828988B200091BF09 /* UserDefaults + Extensions.swift */,
 				7DA6EC91289888E30091BF09 /* TextField + IBInspectable.swift */,
+				7DA0F1CB289AA66B00291915 /* UILabel + Extensions.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -392,6 +401,7 @@
 				7DA6EC66289885DD0091BF09 /* Assets.xcassets in Resources */,
 				7DA6ECBE28988D130091BF09 /* AddProductViewController.xib in Resources */,
 				7DA6ECBA28988CA50091BF09 /* OnboardingViewController.xib in Resources */,
+				7DA0F1CA289A994D00291915 /* AddProductInfo.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,8 +431,10 @@
 				7DA6ECAB28988B200091BF09 /* DesignableTextField + Extenison .swift in Sources */,
 				7DA6ECAF28988B200091BF09 /* UIView + IBInspectable.swift in Sources */,
 				7DA6EC5A289885DB0091BF09 /* AppDelegate.swift in Sources */,
+				7DA0F1CC289AA66B00291915 /* UILabel + Extensions.swift in Sources */,
 				7DA6ECAE28988B200091BF09 /* UserDefaults + Extensions.swift in Sources */,
 				7DA6EC5C289885DB0091BF09 /* SceneDelegate.swift in Sources */,
+				7DA0F1C9289A994D00291915 /* AddProductInfo.swift in Sources */,
 				7DA6ECB928988CA50091BF09 /* OnboardingViewController.swift in Sources */,
 				7DA6EC64289885DB0091BF09 /* ProductsShop.xcdatamodeld in Sources */,
 				7DA6ECBD28988D130091BF09 /* AddProductViewController.swift in Sources */,

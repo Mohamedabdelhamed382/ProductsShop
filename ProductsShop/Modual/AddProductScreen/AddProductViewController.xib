@@ -37,11 +37,9 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="421-tD-Awu">
                                                     <rect key="frame" x="0.0" y="0.0" width="378" height="81"/>
                                                     <subviews>
-                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Product Name" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oc2-ea-gKh">
+                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Product Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oc2-ea-gKh">
                                                             <rect key="frame" x="0.0" y="0.0" width="378" height="81"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="81" id="2ns-3h-80T"/>
-                                                            </constraints>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <color key="textColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                             <textInputTraits key="textInputTraits"/>
@@ -49,76 +47,108 @@
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="paddingLeftCustom">
                                                                     <real key="value" value="22"/>
                                                                 </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                    <real key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
                                                         </textField>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
-                                                        <constraint firstItem="Oc2-ea-gKh" firstAttribute="top" secondItem="421-tD-Awu" secondAttribute="top" id="61O-Hj-0hT"/>
-                                                        <constraint firstItem="Oc2-ea-gKh" firstAttribute="leading" secondItem="421-tD-Awu" secondAttribute="leading" id="GBv-XB-e7O"/>
-                                                        <constraint firstAttribute="trailing" secondItem="Oc2-ea-gKh" secondAttribute="trailing" id="dAq-XF-aeg"/>
+                                                        <constraint firstAttribute="bottom" secondItem="Oc2-ea-gKh" secondAttribute="bottom" id="21v-4y-IvI"/>
+                                                        <constraint firstAttribute="height" constant="81" id="3mc-64-OMd"/>
+                                                        <constraint firstAttribute="trailing" secondItem="Oc2-ea-gKh" secondAttribute="trailing" id="Ile-gD-bJQ"/>
+                                                        <constraint firstItem="Oc2-ea-gKh" firstAttribute="leading" secondItem="421-tD-Awu" secondAttribute="leading" id="h3M-1o-Y5L"/>
+                                                        <constraint firstItem="Oc2-ea-gKh" firstAttribute="top" secondItem="421-tD-Awu" secondAttribute="top" id="uab-kR-p6D"/>
                                                     </constraints>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                             <real key="value" value="10"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="1"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zrg-fz-qvW">
                                                     <rect key="frame" x="0.0" y="100" width="378" height="81"/>
                                                     <subviews>
-                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Product Info" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Ox-qc-0jU">
+                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Product Info" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Ox-qc-0jU">
                                                             <rect key="frame" x="0.0" y="0.0" width="378" height="81"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="81" id="cIm-eK-arm"/>
-                                                            </constraints>
-                                                            <color key="textColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="tintColor" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="textColor" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                             <textInputTraits key="textInputTraits"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="paddingLeftCustom">
                                                                     <real key="value" value="22"/>
                                                                 </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                    <real key="value" value="10"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                    <real key="value" value="1"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </userDefinedRuntimeAttribute>
                                                             </userDefinedRuntimeAttributes>
                                                         </textField>
                                                     </subviews>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="trailing" secondItem="3Ox-qc-0jU" secondAttribute="trailing" id="KQT-qJ-nqj"/>
-                                                        <constraint firstItem="3Ox-qc-0jU" firstAttribute="leading" secondItem="zrg-fz-qvW" secondAttribute="leading" id="QRt-tb-ykm"/>
-                                                        <constraint firstItem="3Ox-qc-0jU" firstAttribute="top" secondItem="zrg-fz-qvW" secondAttribute="top" id="mZ5-re-uzq"/>
+                                                        <constraint firstAttribute="bottom" secondItem="3Ox-qc-0jU" secondAttribute="bottom" id="MWa-vY-3jm"/>
+                                                        <constraint firstAttribute="trailing" secondItem="3Ox-qc-0jU" secondAttribute="trailing" id="c0H-1Y-Bk9"/>
+                                                        <constraint firstItem="3Ox-qc-0jU" firstAttribute="top" secondItem="zrg-fz-qvW" secondAttribute="top" id="cby-OM-7vg"/>
+                                                        <constraint firstItem="3Ox-qc-0jU" firstAttribute="leading" secondItem="zrg-fz-qvW" secondAttribute="leading" id="kNd-TH-1Lm"/>
                                                     </constraints>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                             <real key="value" value="10"/>
                                                         </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="1"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xc1-ED-3Ql">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xc1-ED-3Ql" customClass="AddProductInfo" customModule="ProductsShop" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="200" width="378" height="81"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="81" id="j5G-iN-RY8"/>
-                                                    </constraints>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                             <real key="value" value="10"/>
                                                         </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="1"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ek0-Zx-5tb">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ek0-Zx-5tb" customClass="AddProductInfo" customModule="ProductsShop" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="300" width="378" height="81"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="81" id="VfM-T4-JC3"/>
-                                                    </constraints>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                             <real key="value" value="10"/>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6dR-kE-dxF">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6dR-kE-dxF" customClass="AddProductInfo" customModule="ProductsShop" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="400" width="378" height="81"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <userDefinedRuntimeAttributes>
