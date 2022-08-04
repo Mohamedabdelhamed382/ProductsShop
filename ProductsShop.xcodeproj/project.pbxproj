@@ -31,6 +31,12 @@
 		7DA6ECBA28988CA50091BF09 /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DA6ECB828988CA50091BF09 /* OnboardingViewController.xib */; };
 		7DA6ECBD28988D130091BF09 /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA6ECBB28988D130091BF09 /* AddProductViewController.swift */; };
 		7DA6ECBE28988D130091BF09 /* AddProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DA6ECBC28988D130091BF09 /* AddProductViewController.xib */; };
+		7DAC95C9289BDA2300670383 /* AddImageHeaderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC95C7289BDA2300670383 /* AddImageHeaderViewCell.swift */; };
+		7DAC95CA289BDA2300670383 /* AddImageHeaderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DAC95C8289BDA2300670383 /* AddImageHeaderViewCell.xib */; };
+		7DAC95CD289BDBFA00670383 /* AddProductHeaderViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC95CB289BDBFA00670383 /* AddProductHeaderViewView.swift */; };
+		7DAC95CE289BDBFA00670383 /* AddProductHeaderViewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DAC95CC289BDBFA00670383 /* AddProductHeaderViewView.xib */; };
+		7DDA4BA2289B0F4600408551 /* AddImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDA4BA0289B0F4600408551 /* AddImageCollectionViewCell.swift */; };
+		7DDA4BA3289B0F4600408551 /* AddImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DDA4BA1289B0F4600408551 /* AddImageCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +85,12 @@
 		7DA6ECB828988CA50091BF09 /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
 		7DA6ECBB28988D130091BF09 /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
 		7DA6ECBC28988D130091BF09 /* AddProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddProductViewController.xib; sourceTree = "<group>"; };
+		7DAC95C7289BDA2300670383 /* AddImageHeaderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageHeaderViewCell.swift; sourceTree = "<group>"; };
+		7DAC95C8289BDA2300670383 /* AddImageHeaderViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddImageHeaderViewCell.xib; sourceTree = "<group>"; };
+		7DAC95CB289BDBFA00670383 /* AddProductHeaderViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductHeaderViewView.swift; sourceTree = "<group>"; };
+		7DAC95CC289BDBFA00670383 /* AddProductHeaderViewView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddProductHeaderViewView.xib; sourceTree = "<group>"; };
+		7DDA4BA0289B0F4600408551 /* AddImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		7DDA4BA1289B0F4600408551 /* AddImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddImageCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,7 +280,7 @@
 		7DA6ECB028988B390091BF09 /* AddProductScreen */ = {
 			isa = PBXGroup;
 			children = (
-				7DDA4B9E289B0BF800408551 /* Sub View */,
+				7DDA4B9E289B0BF800408551 /* Sub Views */,
 				7DDA4B9D289B0BDD00408551 /* Main View */,
 			);
 			path = AddProductScreen;
@@ -292,6 +304,33 @@
 			path = "SignIn Screen";
 			sourceTree = "<group>";
 		};
+		7DAC95C4289BD90400670383 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC95C6289BD9BD00670383 /* AddImageHeaderViewCell */,
+				7DDA4B9F289B0EE000408551 /* AddImageCollectionViewCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7DAC95C5289BD92200670383 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC95CB289BDBFA00670383 /* AddProductHeaderViewView.swift */,
+				7DAC95CC289BDBFA00670383 /* AddProductHeaderViewView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		7DAC95C6289BD9BD00670383 /* AddImageHeaderViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC95C7289BDA2300670383 /* AddImageHeaderViewCell.swift */,
+				7DAC95C8289BDA2300670383 /* AddImageHeaderViewCell.xib */,
+			);
+			path = AddImageHeaderViewCell;
+			sourceTree = "<group>";
+		};
 		7DDA4B9D289B0BDD00408551 /* Main View */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,11 +340,22 @@
 			path = "Main View";
 			sourceTree = "<group>";
 		};
-		7DDA4B9E289B0BF800408551 /* Sub View */ = {
+		7DDA4B9E289B0BF800408551 /* Sub Views */ = {
 			isa = PBXGroup;
 			children = (
+				7DAC95C4289BD90400670383 /* Cells */,
+				7DAC95C5289BD92200670383 /* HeaderView */,
 			);
-			path = "Sub View";
+			path = "Sub Views";
+			sourceTree = "<group>";
+		};
+		7DDA4B9F289B0EE000408551 /* AddImageCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7DDA4BA0289B0F4600408551 /* AddImageCollectionViewCell.swift */,
+				7DDA4BA1289B0F4600408551 /* AddImageCollectionViewCell.xib */,
+			);
+			path = AddImageCollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,9 +465,12 @@
 				7DA6EC69289885DD0091BF09 /* LaunchScreen.storyboard in Resources */,
 				7DA6ECB628988B9E0091BF09 /* SignInViewController.xib in Resources */,
 				7DA6EC66289885DD0091BF09 /* Assets.xcassets in Resources */,
+				7DAC95CA289BDA2300670383 /* AddImageHeaderViewCell.xib in Resources */,
 				7DA6ECBE28988D130091BF09 /* AddProductViewController.xib in Resources */,
 				7DA6ECBA28988CA50091BF09 /* OnboardingViewController.xib in Resources */,
+				7DDA4BA3289B0F4600408551 /* AddImageCollectionViewCell.xib in Resources */,
 				7DA0F1CA289A994D00291915 /* AddProductInfo.xib in Resources */,
+				7DAC95CE289BDBFA00670383 /* AddProductHeaderViewView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,10 +496,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DA6ECB528988B9E0091BF09 /* SignInViewController.swift in Sources */,
+				7DAC95C9289BDA2300670383 /* AddImageHeaderViewCell.swift in Sources */,
 				7DA6ECAC28988B200091BF09 /* CornersRadius + Extensions.swift in Sources */,
 				7DA6ECAB28988B200091BF09 /* DesignableTextField + Extenison .swift in Sources */,
 				7DA6ECAF28988B200091BF09 /* UIView + IBInspectable.swift in Sources */,
 				7DA6EC5A289885DB0091BF09 /* AppDelegate.swift in Sources */,
+				7DAC95CD289BDBFA00670383 /* AddProductHeaderViewView.swift in Sources */,
 				7DA0F1CC289AA66B00291915 /* UILabel + Extensions.swift in Sources */,
 				7DA6ECAE28988B200091BF09 /* UserDefaults + Extensions.swift in Sources */,
 				7DA6EC5C289885DB0091BF09 /* SceneDelegate.swift in Sources */,
@@ -454,6 +509,7 @@
 				7DA6ECB928988CA50091BF09 /* OnboardingViewController.swift in Sources */,
 				7DA6EC64289885DB0091BF09 /* ProductsShop.xcdatamodeld in Sources */,
 				7DA6ECBD28988D130091BF09 /* AddProductViewController.swift in Sources */,
+				7DDA4BA2289B0F4600408551 /* AddImageCollectionViewCell.swift in Sources */,
 				7DA6ECAD28988B200091BF09 /* Keybord + Extention.swift in Sources */,
 				7DA6EC92289888E30091BF09 /* TextField + IBInspectable.swift in Sources */,
 				7DA6ECAA28988B200091BF09 /* String + Extensions .swift in Sources */,

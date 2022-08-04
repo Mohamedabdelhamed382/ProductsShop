@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="AddImageHeaderViewCell" reuseIdentifier="AddImageHeaderViewCell" id="gTV-IL-0wX" customClass="AddImageHeaderViewCell" customModule="ProductsShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="92" height="92"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="92" height="92"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YAb-9G-AJ9">
+                        <rect key="frame" x="0.0" y="11" width="81" height="81"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plus" translatesAutoresizingMaskIntoConstraints="NO" id="LtB-iW-lV3">
+                                <rect key="frame" x="0.0" y="0.0" width="81" height="81"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KrC-8e-WMS">
+                                <rect key="frame" x="0.0" y="0.0" width="81" height="81"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="LtB-iW-lV3" secondAttribute="bottom" id="0OQ-7x-wS4"/>
+                            <constraint firstAttribute="height" constant="81" id="BSJ-ug-2O4"/>
+                            <constraint firstItem="LtB-iW-lV3" firstAttribute="top" secondItem="YAb-9G-AJ9" secondAttribute="top" id="HOb-H2-GJF"/>
+                            <constraint firstAttribute="trailing" secondItem="KrC-8e-WMS" secondAttribute="trailing" id="PFj-5d-N28"/>
+                            <constraint firstAttribute="bottom" secondItem="KrC-8e-WMS" secondAttribute="bottom" id="QV4-5I-0KI"/>
+                            <constraint firstItem="KrC-8e-WMS" firstAttribute="top" secondItem="YAb-9G-AJ9" secondAttribute="top" id="ScP-Kp-0f3"/>
+                            <constraint firstAttribute="width" constant="81" id="Uaj-EU-Ogg"/>
+                            <constraint firstItem="KrC-8e-WMS" firstAttribute="leading" secondItem="YAb-9G-AJ9" secondAttribute="leading" id="X1C-tJ-gg4"/>
+                            <constraint firstAttribute="trailing" secondItem="LtB-iW-lV3" secondAttribute="trailing" id="bZz-Ul-PUI"/>
+                            <constraint firstItem="LtB-iW-lV3" firstAttribute="leading" secondItem="YAb-9G-AJ9" secondAttribute="leading" id="eES-os-VxS"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="YAb-9G-AJ9" secondAttribute="bottom" id="Aol-n6-PMS"/>
+                <constraint firstItem="YAb-9G-AJ9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="rir-bX-TYt"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="126"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="plus" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

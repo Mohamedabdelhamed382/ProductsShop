@@ -6,7 +6,6 @@
 //
 
 import UIKit
-
 class AddProductInfo: UIView {
     
     @IBOutlet weak var contentView: UIView!
@@ -23,12 +22,9 @@ class AddProductInfo: UIView {
     }
         
     private func nibSetup() {
-        Bundle.main.loadNibNamed("\(AddProductInfo.self)",
-                                 owner: self, options: nil)
+        Bundle.main.loadNibNamed("\(AddProductInfo.self)", owner: self, options: nil)
         guard let contentView = contentView else { return }
         contentView.frame = self.bounds
         addSubview(contentView)
-        
-       
     }
 }
