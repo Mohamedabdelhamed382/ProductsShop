@@ -25,6 +25,11 @@ class AddProductViewController: UIViewController {
         super.viewDidLoad()
         
     }
+    
+    @IBAction func doneActionButton(_ sender: Any) {
+        let vc = TabBarViewController()
+            navigationController?.pushViewController(vc, animated: true)
+    }
 }
 
 

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MealsViewCell" id="gTV-IL-0wX" customClass="MealsViewCell" customModule="ProductsShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="268" height="81"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="268" height="81"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="owY-0h-rqn">
+                        <rect key="frame" x="0.0" y="0.0" width="268" height="81"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uXV-m6-pfx" customClass="PaddingLabel" customModule="ProductsShop" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="268" height="81"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="paddingLeft">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uXV-m6-pfx" secondAttribute="trailing" id="5mS-Lb-1HE"/>
+                            <constraint firstItem="uXV-m6-pfx" firstAttribute="top" secondItem="owY-0h-rqn" secondAttribute="top" id="O7u-ec-ixl"/>
+                            <constraint firstAttribute="bottom" secondItem="uXV-m6-pfx" secondAttribute="bottom" id="wcL-0i-zrV"/>
+                            <constraint firstItem="uXV-m6-pfx" firstAttribute="leading" secondItem="owY-0h-rqn" secondAttribute="leading" id="xA8-Dh-yuv"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="owY-0h-rqn" secondAttribute="trailing" id="166-AN-tlS"/>
+                <constraint firstAttribute="bottom" secondItem="owY-0h-rqn" secondAttribute="bottom" id="aWh-T1-W6A"/>
+                <constraint firstItem="owY-0h-rqn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="rSb-FV-wTI"/>
+                <constraint firstItem="owY-0h-rqn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yff-G2-GiO"/>
+            </constraints>
+            <size key="customSize" width="268" height="81"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="20"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                    <real key="value" value="1"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="mealTitleLabel" destination="uXV-m6-pfx" id="nH9-pV-sgq"/>
+            </connections>
+            <point key="canvasLocation" x="295.6521739130435" y="125.55803571428571"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="uXV-m6-pfx">
+            <size key="intrinsicContentSize" width="48" height="24"/>
+        </designable>
+    </designables>
+</document>

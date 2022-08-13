@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ProductItemCellCollectionViewCell" reuseIdentifier="ProductItemCellCollectionViewCell" id="gTV-IL-0wX" customClass="ProductItemCellCollectionViewCell" customModule="ProductsShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="191" height="245"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="191" height="245"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kzo-vv-Ll3">
+                        <rect key="frame" x="0.0" y="0.0" width="191" height="245"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboardingImage" translatesAutoresizingMaskIntoConstraints="NO" id="ycV-cF-IGC">
+                                <rect key="frame" x="15" y="15" width="161" height="153"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="153" id="gRJ-VN-TpI"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Oeb-Uy-ry3">
+                                <rect key="frame" x="15" y="183" width="161" height="47"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Eh-Tm-MKg">
+                                        <rect key="frame" x="0.0" y="0.0" width="161" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CaZ-Kz-rHx">
+                                        <rect key="frame" x="0.0" y="29" width="161" height="18"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Oeb-Uy-ry3" secondAttribute="bottom" constant="15" id="SZ4-j8-TPZ"/>
+                            <constraint firstItem="Oeb-Uy-ry3" firstAttribute="leading" secondItem="ycV-cF-IGC" secondAttribute="leading" id="WPs-ZV-WRa"/>
+                            <constraint firstAttribute="trailing" secondItem="ycV-cF-IGC" secondAttribute="trailing" constant="15" id="YAT-PX-yOU"/>
+                            <constraint firstItem="ycV-cF-IGC" firstAttribute="top" secondItem="kzo-vv-Ll3" secondAttribute="top" constant="15" id="ZfA-0v-ujK"/>
+                            <constraint firstItem="ycV-cF-IGC" firstAttribute="leading" secondItem="kzo-vv-Ll3" secondAttribute="leading" constant="15" id="bcQ-cp-b0Y"/>
+                            <constraint firstItem="Oeb-Uy-ry3" firstAttribute="top" secondItem="ycV-cF-IGC" secondAttribute="bottom" constant="15" id="n7s-Cy-yFT"/>
+                            <constraint firstItem="Oeb-Uy-ry3" firstAttribute="trailing" secondItem="ycV-cF-IGC" secondAttribute="trailing" id="s5V-H2-SAw"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQY-eQ-BSb">
+                        <rect key="frame" x="0.0" y="15" width="191" height="230"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title=""/>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="kzo-vv-Ll3" secondAttribute="trailing" id="8B5-s9-x2w"/>
+                <constraint firstAttribute="bottom" secondItem="kzo-vv-Ll3" secondAttribute="bottom" id="BLW-5e-4zG"/>
+                <constraint firstItem="kzo-vv-Ll3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="J3k-rn-ZJf"/>
+                <constraint firstItem="fQY-eQ-BSb" firstAttribute="leading" secondItem="kzo-vv-Ll3" secondAttribute="leading" id="aaM-IG-3Vz"/>
+                <constraint firstItem="fQY-eQ-BSb" firstAttribute="top" secondItem="kzo-vv-Ll3" secondAttribute="top" constant="15" id="bz3-JS-do7"/>
+                <constraint firstItem="kzo-vv-Ll3" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ct4-Nv-gah"/>
+                <constraint firstItem="fQY-eQ-BSb" firstAttribute="trailing" secondItem="kzo-vv-Ll3" secondAttribute="trailing" id="d15-cY-oCB"/>
+                <constraint firstItem="fQY-eQ-BSb" firstAttribute="bottom" secondItem="kzo-vv-Ll3" secondAttribute="bottom" id="xEn-x6-Jjn"/>
+            </constraints>
+            <point key="canvasLocation" x="138.40579710144928" y="105.46875"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="onboardingImage" width="393" height="408"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

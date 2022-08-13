@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D1D7DEE289C0FD300C5E5BE /* ProductItemCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1D7DEC289C0FD300C5E5BE /* ProductItemCellCollectionViewCell.swift */; };
+		7D1D7DEF289C0FD300C5E5BE /* ProductItemCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D1D7DED289C0FD300C5E5BE /* ProductItemCellCollectionViewCell.xib */; };
+		7D65B3FA289D18EB00BF62EA /* TypeOfMealCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D65B3F8289D18EB00BF62EA /* TypeOfMealCell.swift */; };
+		7D65B3FB289D18EB00BF62EA /* TypeOfMealCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D65B3F9289D18EB00BF62EA /* TypeOfMealCell.xib */; };
+		7D65B3FE289D1A1600BF62EA /* TypeOfMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D65B3FC289D1A1600BF62EA /* TypeOfMealView.swift */; };
+		7D65B3FF289D1A1600BF62EA /* TypeOfMealView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D65B3FD289D1A1600BF62EA /* TypeOfMealView.xib */; };
 		7DA0F1C9289A994D00291915 /* AddProductInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0F1C7289A994D00291915 /* AddProductInfo.swift */; };
 		7DA0F1CA289A994D00291915 /* AddProductInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DA0F1C8289A994D00291915 /* AddProductInfo.xib */; };
 		7DA0F1CC289AA66B00291915 /* UILabel + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA0F1CB289AA66B00291915 /* UILabel + Extensions.swift */; };
@@ -35,8 +41,15 @@
 		7DAC95CA289BDA2300670383 /* AddImageHeaderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DAC95C8289BDA2300670383 /* AddImageHeaderViewCell.xib */; };
 		7DAC95CD289BDBFA00670383 /* AddProductHeaderViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC95CB289BDBFA00670383 /* AddProductHeaderViewView.swift */; };
 		7DAC95CE289BDBFA00670383 /* AddProductHeaderViewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DAC95CC289BDBFA00670383 /* AddProductHeaderViewView.xib */; };
+		7DAC95D2289BF4CC00670383 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC95D0289BF4CC00670383 /* HomeScreenViewController.swift */; };
+		7DAC95D3289BF4CC00670383 /* HomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DAC95D1289BF4CC00670383 /* HomeScreenViewController.xib */; };
+		7DAC95D6289BF6D700670383 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAC95D5289BF6D700670383 /* TabBarViewController.swift */; };
 		7DDA4BA2289B0F4600408551 /* AddImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDA4BA0289B0F4600408551 /* AddImageCollectionViewCell.swift */; };
 		7DDA4BA3289B0F4600408551 /* AddImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DDA4BA1289B0F4600408551 /* AddImageCollectionViewCell.xib */; };
+		7DFA6236289DC11D00AC36DB /* MealsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA6234289DC11D00AC36DB /* MealsViewCell.swift */; };
+		7DFA6237289DC11D00AC36DB /* MealsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DFA6235289DC11D00AC36DB /* MealsViewCell.xib */; };
+		7DFA623B289DC30A00AC36DB /* MealsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA6239289DC30A00AC36DB /* MealsView.swift */; };
+		7DFA623C289DC30A00AC36DB /* MealsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DFA623A289DC30A00AC36DB /* MealsView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +70,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7D1D7DEC289C0FD300C5E5BE /* ProductItemCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		7D1D7DED289C0FD300C5E5BE /* ProductItemCellCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductItemCellCollectionViewCell.xib; sourceTree = "<group>"; };
+		7D65B3F8289D18EB00BF62EA /* TypeOfMealCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOfMealCell.swift; sourceTree = "<group>"; };
+		7D65B3F9289D18EB00BF62EA /* TypeOfMealCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeOfMealCell.xib; sourceTree = "<group>"; };
+		7D65B3FC289D1A1600BF62EA /* TypeOfMealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOfMealView.swift; sourceTree = "<group>"; };
+		7D65B3FD289D1A1600BF62EA /* TypeOfMealView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeOfMealView.xib; sourceTree = "<group>"; };
 		7DA0F1C7289A994D00291915 /* AddProductInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductInfo.swift; sourceTree = "<group>"; };
 		7DA0F1C8289A994D00291915 /* AddProductInfo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddProductInfo.xib; sourceTree = "<group>"; };
 		7DA0F1CB289AA66B00291915 /* UILabel + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extensions.swift"; sourceTree = "<group>"; };
@@ -89,8 +108,15 @@
 		7DAC95C8289BDA2300670383 /* AddImageHeaderViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddImageHeaderViewCell.xib; sourceTree = "<group>"; };
 		7DAC95CB289BDBFA00670383 /* AddProductHeaderViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductHeaderViewView.swift; sourceTree = "<group>"; };
 		7DAC95CC289BDBFA00670383 /* AddProductHeaderViewView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddProductHeaderViewView.xib; sourceTree = "<group>"; };
+		7DAC95D0289BF4CC00670383 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		7DAC95D1289BF4CC00670383 /* HomeScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScreenViewController.xib; sourceTree = "<group>"; };
+		7DAC95D5289BF6D700670383 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		7DDA4BA0289B0F4600408551 /* AddImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		7DDA4BA1289B0F4600408551 /* AddImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		7DFA6234289DC11D00AC36DB /* MealsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsViewCell.swift; sourceTree = "<group>"; };
+		7DFA6235289DC11D00AC36DB /* MealsViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealsViewCell.xib; sourceTree = "<group>"; };
+		7DFA6239289DC30A00AC36DB /* MealsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsView.swift; sourceTree = "<group>"; };
+		7DFA623A289DC30A00AC36DB /* MealsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealsView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +144,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D1D7DE8289C0D9200C5E5BE /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC95D0289BF4CC00670383 /* HomeScreenViewController.swift */,
+				7DAC95D1289BF4CC00670383 /* HomeScreenViewController.xib */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
+		7D1D7DE9289C0DA200C5E5BE /* Sub Views  */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D7DEA289C0DB100C5E5BE /* Cells */,
+				7D65B3F4289D12E300BF62EA /* HeaderView */,
+			);
+			path = "Sub Views ";
+			sourceTree = "<group>";
+		};
+		7D1D7DEA289C0DB100C5E5BE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D7DEB289C0DB900C5E5BE /* ProductItemCell  */,
+				7DFA6238289DC12500AC36DB /* MealsViewCell */,
+				7D65B3F7289D186F00BF62EA /* TypeOfMealCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		7D1D7DEB289C0DB900C5E5BE /* ProductItemCell  */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D7DEC289C0FD300C5E5BE /* ProductItemCellCollectionViewCell.swift */,
+				7D1D7DED289C0FD300C5E5BE /* ProductItemCellCollectionViewCell.xib */,
+			);
+			path = "ProductItemCell ";
+			sourceTree = "<group>";
+		};
+		7D65B3F4289D12E300BF62EA /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				7D65B3F6289D133C00BF62EA /* TypeOfMealView */,
+				7D65B3F5289D12F300BF62EA /* MealsView */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		7D65B3F5289D12F300BF62EA /* MealsView */ = {
+			isa = PBXGroup;
+			children = (
+				7DFA6239289DC30A00AC36DB /* MealsView.swift */,
+				7DFA623A289DC30A00AC36DB /* MealsView.xib */,
+			);
+			path = MealsView;
+			sourceTree = "<group>";
+		};
+		7D65B3F6289D133C00BF62EA /* TypeOfMealView */ = {
+			isa = PBXGroup;
+			children = (
+				7D65B3FC289D1A1600BF62EA /* TypeOfMealView.swift */,
+				7D65B3FD289D1A1600BF62EA /* TypeOfMealView.xib */,
+			);
+			path = TypeOfMealView;
+			sourceTree = "<group>";
+		};
+		7D65B3F7289D186F00BF62EA /* TypeOfMealCell */ = {
+			isa = PBXGroup;
+			children = (
+				7D65B3F8289D18EB00BF62EA /* TypeOfMealCell.swift */,
+				7D65B3F9289D18EB00BF62EA /* TypeOfMealCell.xib */,
+			);
+			path = TypeOfMealCell;
+			sourceTree = "<group>";
+		};
 		7DA6EC4D289885DB0091BF09 = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +321,8 @@
 		7DA6EC982898895D0091BF09 /* Modual */ = {
 			isa = PBXGroup;
 			children = (
+				7DAC95D4289BF66F00670383 /* TabBarViewController */,
+				7DAC95CF289BF4A500670383 /* HomeScreen */,
 				7DA6ECB228988B640091BF09 /* SignIn Screen */,
 				7DA6ECB128988B4C0091BF09 /* OnboardingScreen */,
 				7DA6ECB028988B390091BF09 /* AddProductScreen */,
@@ -331,6 +432,23 @@
 			path = AddImageHeaderViewCell;
 			sourceTree = "<group>";
 		};
+		7DAC95CF289BF4A500670383 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7D1D7DE9289C0DA200C5E5BE /* Sub Views  */,
+				7D1D7DE8289C0D9200C5E5BE /* Main View */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		7DAC95D4289BF66F00670383 /* TabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7DAC95D5289BF6D700670383 /* TabBarViewController.swift */,
+			);
+			path = TabBarViewController;
+			sourceTree = "<group>";
+		};
 		7DDA4B9D289B0BDD00408551 /* Main View */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,6 +474,15 @@
 				7DDA4BA1289B0F4600408551 /* AddImageCollectionViewCell.xib */,
 			);
 			path = AddImageCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		7DFA6238289DC12500AC36DB /* MealsViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7DFA6234289DC11D00AC36DB /* MealsViewCell.swift */,
+				7DFA6235289DC11D00AC36DB /* MealsViewCell.xib */,
+			);
+			path = MealsViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -463,13 +590,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DA6EC69289885DD0091BF09 /* LaunchScreen.storyboard in Resources */,
+				7DFA6237289DC11D00AC36DB /* MealsViewCell.xib in Resources */,
 				7DA6ECB628988B9E0091BF09 /* SignInViewController.xib in Resources */,
 				7DA6EC66289885DD0091BF09 /* Assets.xcassets in Resources */,
 				7DAC95CA289BDA2300670383 /* AddImageHeaderViewCell.xib in Resources */,
+				7D65B3FF289D1A1600BF62EA /* TypeOfMealView.xib in Resources */,
 				7DA6ECBE28988D130091BF09 /* AddProductViewController.xib in Resources */,
 				7DA6ECBA28988CA50091BF09 /* OnboardingViewController.xib in Resources */,
 				7DDA4BA3289B0F4600408551 /* AddImageCollectionViewCell.xib in Resources */,
+				7DAC95D3289BF4CC00670383 /* HomeScreenViewController.xib in Resources */,
 				7DA0F1CA289A994D00291915 /* AddProductInfo.xib in Resources */,
+				7D65B3FB289D18EB00BF62EA /* TypeOfMealCell.xib in Resources */,
+				7D1D7DEF289C0FD300C5E5BE /* ProductItemCellCollectionViewCell.xib in Resources */,
+				7DFA623C289DC30A00AC36DB /* MealsView.xib in Resources */,
 				7DAC95CE289BDBFA00670383 /* AddProductHeaderViewView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,21 +629,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DA6ECB528988B9E0091BF09 /* SignInViewController.swift in Sources */,
+				7D1D7DEE289C0FD300C5E5BE /* ProductItemCellCollectionViewCell.swift in Sources */,
 				7DAC95C9289BDA2300670383 /* AddImageHeaderViewCell.swift in Sources */,
+				7D65B3FA289D18EB00BF62EA /* TypeOfMealCell.swift in Sources */,
 				7DA6ECAC28988B200091BF09 /* CornersRadius + Extensions.swift in Sources */,
 				7DA6ECAB28988B200091BF09 /* DesignableTextField + Extenison .swift in Sources */,
 				7DA6ECAF28988B200091BF09 /* UIView + IBInspectable.swift in Sources */,
 				7DA6EC5A289885DB0091BF09 /* AppDelegate.swift in Sources */,
 				7DAC95CD289BDBFA00670383 /* AddProductHeaderViewView.swift in Sources */,
 				7DA0F1CC289AA66B00291915 /* UILabel + Extensions.swift in Sources */,
+				7DAC95D6289BF6D700670383 /* TabBarViewController.swift in Sources */,
+				7DAC95D2289BF4CC00670383 /* HomeScreenViewController.swift in Sources */,
+				7D65B3FE289D1A1600BF62EA /* TypeOfMealView.swift in Sources */,
 				7DA6ECAE28988B200091BF09 /* UserDefaults + Extensions.swift in Sources */,
 				7DA6EC5C289885DB0091BF09 /* SceneDelegate.swift in Sources */,
 				7DA0F1C9289A994D00291915 /* AddProductInfo.swift in Sources */,
 				7DA6ECB928988CA50091BF09 /* OnboardingViewController.swift in Sources */,
 				7DA6EC64289885DB0091BF09 /* ProductsShop.xcdatamodeld in Sources */,
 				7DA6ECBD28988D130091BF09 /* AddProductViewController.swift in Sources */,
+				7DFA6236289DC11D00AC36DB /* MealsViewCell.swift in Sources */,
 				7DDA4BA2289B0F4600408551 /* AddImageCollectionViewCell.swift in Sources */,
 				7DA6ECAD28988B200091BF09 /* Keybord + Extention.swift in Sources */,
+				7DFA623B289DC30A00AC36DB /* MealsView.swift in Sources */,
 				7DA6EC92289888E30091BF09 /* TextField + IBInspectable.swift in Sources */,
 				7DA6ECAA28988B200091BF09 /* String + Extensions .swift in Sources */,
 			);
