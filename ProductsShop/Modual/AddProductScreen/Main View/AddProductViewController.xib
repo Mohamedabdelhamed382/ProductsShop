@@ -196,6 +196,9 @@
                                                     <real key="value" value="20"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="doneActionButton:" destination="-1" eventType="touchUpInside" id="3oc-9v-lXk"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <constraints>

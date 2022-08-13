@@ -55,15 +55,15 @@ extension AddProductHeaderViewView: UICollectionViewDelegate,UICollectionViewDat
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return section == 0 ? 2 : 1
+        return section == 0 ? 1 : 8
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if indexPath.section == 0 {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(AddImageCollectionViewCell.self)", for: indexPath) as? AddImageCollectionViewCell ?? AddImageCollectionViewCell()
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(AddImageHeaderViewCell.self)", for: indexPath) as? AddImageHeaderViewCell ?? AddImageHeaderViewCell()
             return cell
         } else {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(AddImageHeaderViewCell.self)", for: indexPath) as? AddImageHeaderViewCell ?? AddImageHeaderViewCell()
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(AddImageCollectionViewCell.self)", for: indexPath) as? AddImageCollectionViewCell ?? AddImageCollectionViewCell()
             return cell
         }
     }
